@@ -66,6 +66,62 @@ bannerBottom.addEventListener('click', function(){
 })
 
 
+// js savolar
+//  1
+// let n = Number(prompt('N ni kiriting: '));
+// let m = Number(prompt('M ni kiriting: '));
+// function hisoblash(n,m){
+//     if(m%2==0){
+//         console.log( n+1+m/2);
+//     }else{
+//         console.log(-1);
+//     }
+// }
+// hisoblash(n,m);
+
+// 2
+// let n = Number(prompt('chipta raqamini kiriting: '));
+// function omad(n){
+//     let a=0
+//     let s1=0
+//     let s2=0
+//     let b=0
+//     for(i=0;i<6;i++){
+//         if(i<3){
+//             a=(n%10);
+//             s1+=a;
+//             n=Math.floor(n/10);
+//         }else{
+//             b=(n%10);
+//             s2+=b;
+//             n=Math.floor(n/10);
+//         }
+//     }
+//     console.log(s1)
+//     console.log(s2)
+//     if(s1==s2){
+//         console.log('omadli');
+//     }else{
+//     console.log('omadsiz');
+//    }
+// }
+// omad(n);
+
+
+// 3
+// let n = Number(prompt('n sonini kiriting: '));
+// function yigindi(n){
+//     let s=0
+//     while(n!==0){
+//         s+=n%10;
+//         n=Math.floor(n/10);
+//     }
+//     console.log(s)
+// }
+// yigindi(n);
+
+
+
 
 
 
